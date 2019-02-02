@@ -1,0 +1,1 @@
+Fork the project, and make the changes you want locally. Make sure to follow coding conventions, provide comments, and write commit messages. Start a pull request when done.
