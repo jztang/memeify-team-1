@@ -1,0 +1,7 @@
+{
+    "name": "Memeify",
+    "author": "Alisha Sonawalla, Antony Sunwoo, Jason Tang, Tiara Tan",
+    "description": "Memeify is a Google Chrome a extenion that enriches your browsing experience with memes.",
+    "version": "1.0",
+    "manifest_version": 2
+}
