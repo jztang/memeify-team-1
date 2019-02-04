@@ -1,6 +1,6 @@
 # Memeify
 
-Memeify is a Google Chrome a extenion that enriches your browsing experience with memes.
+Memeify is a Google Chrome a extenion that enriches your browsing experience with memes. It is designed to replace certain web page content with memes. 
 
 ![Surprised Pikachu](images/pikachu-cropped.png)
 
