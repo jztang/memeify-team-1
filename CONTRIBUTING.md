@@ -1,1 +1,7 @@
-Fork the project, and make the changes you want locally. Make sure to follow coding conventions, provide comments, and write commit messages. Start a pull request when done.
+- Fork and clone the project.
+- Find an existing issue, or create a new one. Make sure to claim it with a comment!
+- Create a new branch for the issue.
+- Create an empty commit, and push the branch to your fork.
+- Open a pull request on your fork, and mention the issue number.
+- Implement the changes you want on your fork. Make sure to follow coding conventions, provide comments, and write commit messages.
+- When you're done with your changes, update your fork and request a review on the pull request by @ mentioning a maintainer.

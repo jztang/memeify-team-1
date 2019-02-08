@@ -19,7 +19,7 @@ If you find a problem with the extension, please [file a bug](https://github.com
 
 ## Contributing
 
-See our contribution guidelines [here](https://github.com/nyu-ossd-s19/memeify-team-1/blob/master/LICENSE).
+See our contribution guidelines [here](https://github.com/nyu-ossd-s19/memeify-team-1/blob/master/CONTRIBUTING.md).
 
 ## License
 
