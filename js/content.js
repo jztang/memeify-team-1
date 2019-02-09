@@ -19,7 +19,7 @@ function updateImage(image) {
     image.classList.add('meme');
 
     // Get the url of the meme
-    var path = browser.runtime.getURL("images/meme" + Math.floor(Math.random() * 7) + ".jpg");
+    var path = chrome.runtime.getURL("images/meme" + Math.floor(Math.random() * 7) + ".jpg");
 
     // Update the image source url to reflect the meme url
     image.src = path;
