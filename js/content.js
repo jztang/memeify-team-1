@@ -22,13 +22,14 @@ function updateImage(image) {
     var path = browser.runtime.getURL("images/meme" + Math.floor(Math.random() * 5) + ".jpg");
 
     // Update the image source url to reflect the meme url
+    image.src = path;
     if (image.srcset) {
         image.srcset = path;
     }
 }
 
 // Call the replaceImages function
-window.setTimeout(replaceImages);
+window.setTimeout(replaceImages, 1000);
 
 
 // Get all elements in the document
