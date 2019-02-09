@@ -4,6 +4,7 @@
     "description": "Memeify is a Google Chrome a extenion that enriches your browsing experience with memes.",
     "version": "1.0",
     "manifest_version": 2,
+    "permissions": [],
     "content_scripts": [
         {
             "matches": [
@@ -14,5 +15,14 @@
             ],
             "run_at": "document_end"
         }
-    ]
+    ],
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistant": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+        // todo: default icon
+    }
+    // todo: "icons"
 }
