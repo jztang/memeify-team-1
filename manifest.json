@@ -4,15 +4,31 @@
     "description": "Memeify is a Google Chrome a extenion that enriches your browsing experience with memes.",
     "version": "1.0",
     "manifest_version": 2,
+    "homepage_url": "https://github.com/nyu-ossd-s19/memeify-team-1",
+    "icons": {
+        "48": "icons/pikachu.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
     "content_scripts": [
         {
             "matches": [
-                "*://*/*"
+                "<all_urls>"
             ],
             "js": [
                 "js/content.js"
             ],
             "run_at": "document_end"
         }
+    ],
+    "web_accessible_resources": [
+        "images/meme0.jpg",
+        "images/meme1.jpg",
+        "images/meme2.jpg",
+        "images/meme3.jpg",
+        "images/meme4.jpg",
+        "images/meme5.jpg",
+        "images/meme6.jpg"
     ]
 }
