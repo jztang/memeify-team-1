@@ -17,7 +17,7 @@ This extension currently supports Google Chrome and Firefox.
 ### Google Chrome
 1. Download all the files from the [repository](https://github.com/nyu-ossd-s19/memeify-team-1) to your computer.  
 2. Open a new tab in your Google Chrome browser.
-3. Type **chrome://extensions** in the URL bar.
+3. Type **chrome://extensions** in the URL bar and press enter.
 4. Toggle on **Developer mode** on the top right.
 5. Click **Load unpacked** in the option bar that appears.
 6. Navigate to the folder that contains the downloaded files, select it, and click **select**.
@@ -29,7 +29,7 @@ This extension currently supports Google Chrome and Firefox.
 
 1. Download all the files from the [repository](https://github.com/nyu-ossd-s19/memeify-team-1) to your computer.  
 2. Open a new tab in your Firefox browser.
-3. Type **about:debugging** in the URL bar.
+3. Type **about:debugging** in the URL bar and press enter.
 4. Click **Load Temporary Add-on**.
 5. Navigate to the folder that contains the downloaded files and select **manifest.json**.
 6. Congratulations! Memeify is now installed on your Firefox.
