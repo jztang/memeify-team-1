@@ -1,14 +1,17 @@
 {
     "name": "Memeify",
     "author": "Alisha Sonawalla, Antony Sunwoo, Jason Tang, Tiara Tan",
-    "description": "Memeify is a Google Chrome a extenion that enriches your browsing experience with memes.",
+    "description": "Memeify is a browser extension that enriches your browsing experience with memes.",
     "version": "1.0",
     "manifest_version": 2,
-    "permissions": [],
+    "homepage_url": "https://github.com/nyu-ossd-s19/memeify-team-1",
+    "permissions": [
+        "activeTab"
+    ],
     "content_scripts": [
         {
             "matches": [
-                "*://*/*"
+                "<all_urls>"
             ],
             "js": [
                 "js/content.js"
@@ -21,8 +24,20 @@
         "persistant": false
     },
     "browser_action": {
+        "default_title": "Memeify",
         "default_popup": "popup.html"
-        // todo: default icon
-    }
-    // todo: "icons"
+    },
+    "icons": {
+        "48": "icons/pikachu.png"
+        // TODO: 128x128 icon
+    },
+    "web_accessible_resources": [ // TODO: add all images in subdirectory instead of manually listing
+        "images/meme0.jpg",
+        "images/meme1.jpg",
+        "images/meme2.jpg",
+        "images/meme3.jpg",
+        "images/meme4.jpg",
+        "images/meme5.jpg",
+        "images/meme6.jpg"
+    ]
 }
