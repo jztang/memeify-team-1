@@ -12,7 +12,16 @@ Memeify is a Google Chrome a extension that enriches your browsing experience wi
 
 ## Installation
 
-TBA.
+This extension currently supports Google Chrome.
+
+### Google Chrome
+1. Download all the files from the [repository](https://github.com/nyu-ossd-s19/memeify-team-1) to your computer.  
+2. Open a new tab in your Google Chrome Browser.
+3. Type **chrome://extensions** in the URL bar.
+4. Toggle on **Developer mode** on the top right.
+5. Click **Load unpacked** in the option bar that appears.
+6. Navigate to the folder that contains the downloaded files, select it, and click **select**.
+7. Congratulations! Memeify is now installed on your Google Chrome.
 
 ## Problems?
 
