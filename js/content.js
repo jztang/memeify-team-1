@@ -48,7 +48,7 @@ for (var i = 0; i < elements.length; i++) {
             // Get the current text
             var text = node.nodeValue;
             // Update the existing text with 'MEME'
-            var replacedText = text.replace(/the/gi, 'MEME');
+            var replacedText = text.replace(/b/gi, "\uD83C\uDD71").replace(/the/gi, 'MEME');
 
             // Check if the correct text has been replaced, else update with original
             if (replacedText !== text) {
