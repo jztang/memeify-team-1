@@ -57,3 +57,5 @@ for (var i = 0; i < elements.length; i++) {
         }
     }
 }
+
+document.body.style.cursor = "url(https://i.imgur.com/vQmMbqf.png), auto";
